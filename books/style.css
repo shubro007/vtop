@@ -1,0 +1,48 @@
+#books{
+    color: rgb(94, 255, 0);
+}
+
+.subjectlist{
+    background-color: rgba(255, 255, 255, 0.137);
+    text-align: left;
+
+
+}
+
+.bookslist {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bookslist li{
+    border: 2px black solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: ;
+}
+
+
+
+.forensicbooks{
+    height: 0px;
+    overflow: hidden;
+}
+
+.forensicbooks.active{
+    height: fit-content;
+
+}
+
+.books li{
+    border: none;
+}
+
+.download{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
